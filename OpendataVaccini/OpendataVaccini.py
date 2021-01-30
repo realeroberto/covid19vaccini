@@ -7,7 +7,7 @@
 import urllib.request, urllib.parse, json
 import pandas as pd
 
-BASE_URL = 'https://github.com/italia/covid19-opendata-vaccini/blob/master/dati/somministrazioni-vaccini-latest.json?raw=true'
+BASE_URL = 'https://github.com/italia/covid19-opendata-vaccini/blob/master/dati/'
 
 class OpendataVaccini(object):
 
