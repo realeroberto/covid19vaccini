@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# OpendataVaccini
+# Covid19Vaccini
 #
 # Consumes open data about Covid-19 in Italy
 
@@ -9,7 +9,7 @@ import pandas as pd
 
 BASE_URL = 'https://github.com/italia/covid19-opendata-vaccini/blob/master/dati/'
 
-class OpendataVaccini(object):
+class Covid19Vaccini(object):
 
     def __build_url(self, url):
         url = urllib.parse.urljoin(BASE_URL, url)

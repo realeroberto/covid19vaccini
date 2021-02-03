@@ -1,4 +1,4 @@
-# covid19-notebook
+# covid19-vaccini
 
 A collection of code snippets for Covid-19 related data (with a focus on Italy).
 

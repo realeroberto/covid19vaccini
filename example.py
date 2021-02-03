@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-# OpendataVaccini
+# Covid19Vaccini
 #
 # Consumes open data about Covid-19 in Italy
 
 import sys
-from OpendataVaccini import OpendataVaccini
+from Covid19Vaccini import Covid19Vaccini
 
-df = OpendataVaccini.OpendataVaccini().somministrazioni_vaccini_latest
+df = Covid19Vaccini.Covid19Vaccini().somministrazioni_vaccini_latest
 
 if len(sys.argv) > 1:
     area = sys.argv[1]
